@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/staticplugin">
+<file alias="main.cpp">/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/tests/auto/corelib/io/qresourceengine/staticplugin/main.cpp</file>
+</qresource>
+</RCC>

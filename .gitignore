@@ -1,0 +1,10 @@
+nodeed/
+build/
+.moc/
+.vscode/
+.obj
+*.o
+*.a
+moc_*
+
+

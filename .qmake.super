@@ -1,0 +1,10 @@
+QTREPOS += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase
+QMAKEMODULES += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/modules
+QTREPOS += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qttools
+QMAKEMODULES += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qttools/mkspecs/modules
+QTREPOS += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtdoc
+QMAKEMODULES += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtdoc/mkspecs/modules
+QTREPOS += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtremoteobjects
+QMAKEMODULES += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtremoteobjects/mkspecs/modules
+QTREPOS += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport
+QMAKEMODULES += /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport/mkspecs/modules

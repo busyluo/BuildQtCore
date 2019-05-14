@@ -1,0 +1,49 @@
+Qt_5_PRIVATE_API {
+    qt_private_api_tag*;
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qabstracttestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qappletestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmark_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmarkevent_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmarkmeasurement_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmarkmetric_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmarkperfevents_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmarktimemeasurers_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qbenchmarkvalgrind_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qcsvbenchmarklogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qplaintestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qsignaldumper_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtaptestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qteamcitylogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestblacklist_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestcoreelement_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestcorelist_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestelement_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestelementattribute_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtesthelpers_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestlog_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestresult_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtesttable_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestutil_macos_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qtestxunitstreamer_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qxctestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qxmltestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/qxunittestlogger_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/3rdparty/callgrind_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/3rdparty/cycle_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/3rdparty/linux_perf_event_p.h@
+    @FILE:/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/src/testlib/3rdparty/valgrind_p.h@
+};
+Qt_5 { *; };
+Qt_5.0 {} Qt_5;
+Qt_5.1 {} Qt_5.0;
+Qt_5.2 {} Qt_5.1;
+Qt_5.3 {} Qt_5.2;
+Qt_5.4 {} Qt_5.3;
+Qt_5.5 {} Qt_5.4;
+Qt_5.6 {} Qt_5.5;
+Qt_5.7 {} Qt_5.6;
+Qt_5.8 {} Qt_5.7;
+Qt_5.9 {} Qt_5.8;
+Qt_5.10 {} Qt_5.9;
+Qt_5.11 {} Qt_5.10;
+Qt_5.12 { qt_version_tag; } Qt_5.11;

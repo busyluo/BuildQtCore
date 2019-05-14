@@ -1,0 +1,11 @@
+QT.core.enabled_features = properties animation textcodec big_codecs codecs commandlineparser cxx11_future textdate datestring filesystemiterator filesystemwatcher gestures itemmodel proxymodel identityproxymodel library mimetype processenvironment process statemachine qeventtransition regularexpression settings sharedmemory sortfilterproxymodel std-atomic64 stringlistmodel systemsemaphore temporaryfile timezone topleveldomain translation xmlstream xmlstreamreader xmlstreamwriter
+QT.core.disabled_features = 
+QT.core.QT_CONFIG = properties animation textcodec big_codecs clock-monotonic codecs textdate datestring doubleconversion eventfd filesystemiterator filesystemwatcher gestures itemmodel proxymodel identityproxymodel inotify library mimetype process statemachine regularexpression settings sharedmemory sortfilterproxymodel stringlistmodel systemsemaphore temporaryfile threadsafe-cloexec translation xmlstream xmlstreamreader xmlstreamwriter
+QT.core.exports = 
+QT.core_private.enabled_features = clock-gettime datetimeparser dlopen doubleconversion futimens inotify linkat poll_ppoll sha3-fast
+QT.core_private.disabled_features = etw futimes getauxval getentropy glib gnu-libiconv iconv icu journald lttng poll_poll poll_pollts poll_select posix-libiconv renameat2 slog2 statx syslog system-doubleconversion system-pcre2
+QT.core_private.libraries = librt libdl libatomic
+QMAKE_LIBS_LIBRT = 
+QMAKE_LIBS_LIBDL = /home/xavier/hostroot/gcc-linaro-arm-linux-gnueabihf-4.8/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libdl.so
+QMAKE_LIBS_LIBATOMIC = 
+CONFIG += pcre2

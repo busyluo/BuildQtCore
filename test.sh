@@ -1,0 +1,56 @@
+mkdir build
+./configure \
+-shared \
+-optimize-size \
+-prefix $PWD/build \
+-xplatform linux-arm-gnueabi-g++ \
+-nomake examples -nomake tests \
+-make-tool qdoc \
+-make-tool qtattributionsscanner \
+-confirm-license -opensource \
+-release \
+-no-opengl \
+-no-gui \
+-no-dbus \
+-no-feature-sql \
+-no-feature-network \
+-no-feature-xml \
+-no-feature-testlib \
+-skip qt3d \
+-skip qtactiveqt \
+-skip qtandroidextras \
+-skip qtcanvas3d \
+-skip qtcharts \
+-skip qtconnectivity \
+-skip qtdatavis3d \
+-skip qtdeclarative \
+-skip qtgamepad \
+-skip qtgraphicaleffects \
+-skip qtimageformats \
+-skip qtlocation \
+-skip qtmacextras \
+-skip qtmultimedia \
+-skip qtnetworkauth \
+-skip qtpurchasing \
+-skip qtquickcontrols \
+-skip qtquickcontrols2 \
+-skip qtremoteobjects \
+-skip qtscript \
+-skip qtscxml \
+-skip qtsensors \
+-skip qtserialbus \
+-skip qtserialport \
+-skip qtspeech \
+-skip qtsvg \
+-skip qttranslations \
+-skip qtvirtualkeyboard \
+-skip qtwayland \
+-skip qtwebchannel \
+-skip qtwebengine \
+-skip qtwebsockets \
+-skip qtwebview \
+-skip qtwinextras \
+-skip qtx11extras \
+-skip qtxmlpatterns 
+#-skip qttools \
+#-skip qtdoc \

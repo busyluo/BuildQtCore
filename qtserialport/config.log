@@ -1,0 +1,13 @@
+executing config test ntddmodm
++ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport/config.tests/ntddmodm && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake  -spec /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport/config.tests/ntddmodm
++ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport/config.tests/ntddmodm && MAKEFLAGS= make
+> make[1]: Entering directory '/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport/config.tests/ntddmodm'
+> arm-linux-gnueabihf-g++ -c -pipe -Os -std=gnu++11 -fno-exceptions -Wall -W -fPIC -DQT_NO_EXCEPTIONS -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o .obj/main.o main.cpp
+> main.cpp:40:21: fatal error: windows.h: No such file or directory
+>  #include <windows.h>
+>                      ^
+> compilation terminated.
+> Makefile:268: recipe for target '.obj/main.o' failed
+> make[1]: *** [.obj/main.o] Error 1
+> make[1]: Leaving directory '/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtserialport/config.tests/ntddmodm'
+test ntddmodm FAILED

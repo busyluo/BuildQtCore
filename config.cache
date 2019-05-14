@@ -1,0 +1,267 @@
+cache.platform = linux-g++
+cache.xplatform = linux-arm-gnueabi-g++
+cache.use_gold_linker._KEYS_ = result msgs
+cache.use_gold_linker.result = true
+cache.use_gold_linker.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests && arm-linux-gnueabihf-g++ -pipe -fuse-ld=gold -o conftest-out conftest.cpp"
+cache.machineTuple._KEYS_ = result msgs tuple
+cache.machineTuple.result = true
+cache.machineTuple.msgs = "+ arm-linux-gnueabihf-g++ -dumpmachine" "> arm-linux-gnueabihf"
+cache.machineTuple.tuple = arm-linux-gnueabihf
+cache.verifyspec._KEYS_ = result msgs
+cache.verifyspec.result = true
+cache.verifyspec.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/verifyspec && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/verifyspec" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/verifyspec && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/verifyspec -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o verifyspec.o /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/verifyspec/verifyspec.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o verifyspec verifyspec.o      "
+cache.architecture._KEYS_ = result msgs arch subarch buildabi
+cache.architecture.result = true
+cache.architecture.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/arch && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/arch" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/arch && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/arch -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o arch.o /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/arch/arch.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o arch arch.o      " "Detected architecture: arm ()"
+cache.architecture.arch = arm
+cache.architecture.subarch = 
+cache.architecture.buildabi = arm-little_endian-ilp32-eabi-hardfloat
+cache.host_architecture._KEYS_ = result msgs arch subarch buildabi
+cache.host_architecture.result = true
+cache.host_architecture.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/arch && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/arch/arch_host.pro" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/arch && MAKEFLAGS= /usr/bin/make clean && MAKEFLAGS= /usr/bin/make" "> rm -f arch.o" "> rm -f *~ core *.core" "> g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/arch -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-g++ -o arch.o /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/arch/arch.cpp" "> g++ -Wl,-O1 -o arch arch.o      " "Detected architecture: x86_64 (mmx sse sse2)"
+cache.host_architecture.arch = x86_64
+cache.host_architecture.subarch = mmx sse sse2
+cache.host_architecture.buildabi = x86_64-little_endian-lp64
+cache.alloca_h._KEYS_ = result msgs
+cache.alloca_h.result = true
+cache.alloca_h.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/alloca_h && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/alloca_h" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/alloca_h && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o alloca_h main.o      "
+cache.c++14._KEYS_ = result msgs
+cache.c++14.result = false
+cache.c++14.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c++14 && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c++14" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c++14 && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++1y -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp:5:4: error: $${LITERAL_HASH}error __cplusplus must be > 201103L (the value of C++11)" ">  $${LITERAL_HASH}  error __cplusplus must be > 201103L (the value of C++11)" ">     ^" "> Makefile:167: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.c99._KEYS_ = result msgs
+cache.c99.result = true
+cache.c99.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c99 && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c99" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c99 && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-gcc -c -pipe -O2 -std=gnu99 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.c" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o c99 main.o      "
+cache.c11._KEYS_ = result msgs
+cache.c11.result = true
+cache.c11.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c11 && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c11" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/c11 && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-gcc -c -pipe -O2 -std=gnu11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.c" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o c11 main.o      "
+cache.enable_new_dtags._KEYS_ = result msgs
+cache.enable_new_dtags.result = true
+cache.enable_new_dtags.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests && arm-linux-gnueabihf-g++ -pipe -fuse-ld=gold -Wl,--enable-new-dtags -o conftest-out conftest.cpp"
+cache.pkg-config._KEYS_ = result msgs
+cache.pkg-config.result = false
+cache.pkg-config.msgs = "Found pkg-config from path: /usr/bin/pkg-config"
+cache.host_dbus._KEYS_ = result msgs source sources.1.libs sources.1.includedir sources.1.cflags sources.1.version sources.1.export
+cache.host_dbus.result = true
+cache.host_dbus.msgs = "Trying source 0 (type pkgConfig) of library host_dbus ..." "+ /usr/bin/pkg-config --exists --silence-errors dbus-1 \'>=\' 1.2" "pkg-config did not find package." "  => source produced no result." "Trying source 1 (type inline) of library host_dbus ..." " => source accepted."
+cache.host_dbus.source = 1
+cache.host_dbus.sources.1.libs = 
+cache.host_dbus.sources.1.includedir = 
+cache.host_dbus.sources.1.cflags = 
+cache.host_dbus.sources.1.version = 
+cache.host_dbus.sources.1.export = 
+cache.libudev._KEYS_ = result msgs
+cache.libudev.result = false
+cache.libudev.msgs = "Trying source 0 (type pkgConfig) of library libudev ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type inline) of library libudev ..." "None of [libudev.so libudev.a] found in [] and global paths." "  => source produced no result."
+cache.posix_fallocate._KEYS_ = result msgs
+cache.posix_fallocate.result = true
+cache.posix_fallocate.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/posix_fallocate && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/posix_fallocate" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/posix_fallocate && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o posix_fallocate main.o      "
+cache.precompile_header._KEYS_ = result msgs
+cache.precompile_header.result = true
+cache.precompile_header.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/precompile_header && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/precompile_header" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/precompile_header && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -x c++-header -c header.h -o .pch/precompile_header.gch/c++" "> arm-linux-gnueabihf-g++ -c -include .pch/precompile_header -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o precompile_header main.o      "
+cache.rdrnd._KEYS_ = result msgs
+cache.rdrnd.result = false
+cache.rdrnd.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/x86_simd && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" CONFIG+=add_cflags DEFINES+=NO_ATTRIBUTE SIMD=rdrnd /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/x86_simd" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/x86_simd && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -mrdrnd -O2 -std=gnu++11 -w -fPIC -DNO_ATTRIBUTE -DQT_COMPILER_SUPPORTS_RDRND -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/x86_simd -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/x86_simd/main.cpp" "> arm-linux-gnueabihf-g++: error: unrecognized command line option ‘-mrdrnd’" "> Makefile:170: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.reduce_exports._KEYS_ = result msgs
+cache.reduce_exports.result = true
+cache.reduce_exports.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/reduce_exports && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/reduce_exports" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/reduce_exports && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -fvisibility=hidden -fvisibility-inlines-hidden -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> rm -f libreduce_exports.so.1.0.0 libreduce_exports.so libreduce_exports.so.1 libreduce_exports.so.1.0" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -shared -Wl,-soname,libreduce_exports.so.1 -o libreduce_exports.so.1.0.0 main.o      " "> ln -s libreduce_exports.so.1.0.0 libreduce_exports.so" "> ln -s libreduce_exports.so.1.0.0 libreduce_exports.so.1" "> ln -s libreduce_exports.so.1.0.0 libreduce_exports.so.1.0"
+cache.reduce_relocations._KEYS_ = result msgs
+cache.reduce_relocations.result = false
+cache.reduce_relocations.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/reduce_relocations && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/reduce_relocations" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/reduce_relocations && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp:3:4: error: $${LITERAL_HASH}error Symbolic function binding on this architecture may be broken, disabling it (see QTBUG-36129)." ">  $${LITERAL_HASH}  error Symbolic function binding on this architecture may be broken, disabling it (see QTBUG-36129)." ">     ^" "> Makefile:187: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.stl._KEYS_ = result msgs
+cache.stl.result = true
+cache.stl.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/stl && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/stl" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/stl && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/stl -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o stltest.o /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/config.tests/stl/stltest.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o stl stltest.o      "
+cache.zlib._KEYS_ = result msgs
+cache.zlib.result = false
+cache.zlib.msgs = "Trying source 0 (type inline) of library zlib ..." "  => source failed condition \'config.msvc\'." "Trying source 1 (type inline) of library zlib ..." "  => source failed condition \'config.msvc\'." "Trying source 2 (type inline) of library zlib ..." "None of [libz.so libz.a] found in [] and global paths." "  => source produced no result." "Trying source 3 (type inline) of library zlib ..." "  => source failed condition \'config.wasm\'."
+cache.librt._KEYS_ = result msgs source sources.0.libs sources.0.includedir sources.0.cflags sources.0.version sources.0.export
+cache.librt.result = true
+cache.librt.msgs = "Trying source 0 (type inline) of library librt ..." "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/librt && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += librt\' \'QMAKE_LIBS_LIBRT = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/librt" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/librt && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o librt main.o      " " => source accepted."
+cache.librt.source = 0
+cache.librt.sources.0.libs = 
+cache.librt.sources.0.includedir = 
+cache.librt.sources.0.cflags = 
+cache.librt.sources.0.version = 
+cache.librt.sources.0.export = 
+cache.clock-monotonic._KEYS_ = result msgs
+cache.clock-monotonic.result = true
+cache.clock-monotonic.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/clock-monotonic && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += librt\' \'QMAKE_LIBS_LIBRT = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/clock-monotonic" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/clock-monotonic && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o clock-monotonic main.o      "
+cache.cxx11_future._KEYS_ = result msgs
+cache.cxx11_future.result = true
+cache.cxx11_future.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cxx11_future && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cxx11_future" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cxx11_future && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o cxx11_future main.o   -lpthread   "
+cache.libdl._KEYS_ = result msgs source sources.1.libs sources.1.includedir sources.1.cflags sources.1.version sources.1.export
+cache.libdl.result = true
+cache.libdl.msgs = "Trying source 0 (type inline) of library libdl ..." "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libdl && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += libdl\' \'QMAKE_LIBS_LIBDL = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libdl" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libdl && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o libdl main.o      " "> main.o:main.cpp:function main: error: undefined reference to \'dlopen\'" "> main.o:main.cpp:function main: error: undefined reference to \'dlclose\'" "> main.o:main.cpp:function main: error: undefined reference to \'dlsym\'" "> main.o:main.cpp:function main: error: undefined reference to \'dlerror\'" "> collect2: error: ld returned 1 exit status" "> Makefile:67: recipe for target \'libdl\' failed" "> make: *** [libdl] Error 1" " => source failed verification." "Trying source 1 (type inline) of library libdl ..." "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libdl && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += libdl\' \'QMAKE_LIBS_LIBDL = /home/xavier/hostroot/gcc-linaro-arm-linux-gnueabihf-4.8/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libdl.so\' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libdl" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libdl && MAKEFLAGS= /usr/bin/make clean && MAKEFLAGS= /usr/bin/make" "> rm -f main.o" "> rm -f *~ core *.core" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o libdl main.o   /home/xavier/hostroot/gcc-linaro-arm-linux-gnueabihf-4.8/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libdl.so   " " => source accepted."
+cache.libdl.source = 1
+cache.libdl.sources.1.libs = /home/xavier/hostroot/gcc-linaro-arm-linux-gnueabihf-4.8/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/libdl.so
+cache.libdl.sources.1.includedir = 
+cache.libdl.sources.1.cflags = 
+cache.libdl.sources.1.version = 
+cache.libdl.sources.1.export = 
+cache.eventfd._KEYS_ = result msgs
+cache.eventfd.result = true
+cache.eventfd.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/eventfd && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/eventfd" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/eventfd && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o eventfd main.o      "
+cache.futimens._KEYS_ = result msgs
+cache.futimens.result = true
+cache.futimens.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/futimens && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/futimens" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/futimens && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o futimens main.o      "
+cache.getauxval._KEYS_ = result msgs
+cache.getauxval.result = true
+cache.getauxval.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getauxval && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getauxval" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getauxval && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o getauxval main.o      "
+cache.getentropy._KEYS_ = result msgs
+cache.getentropy.result = false
+cache.getentropy.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getentropy && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getentropy" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getentropy && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp: In function ‘int main(int, char**)’:" "> main.cpp:8:39: error: ‘getentropy’ was not declared in this scope" ">      (void) getentropy(buf, sizeof(buf));" ">                                        ^" "> Makefile:169: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.glib._KEYS_ = result msgs
+cache.glib.result = false
+cache.glib.msgs = "Trying source 0 (type pkgConfig) of library glib ..." "pkg-config use disabled globally." "  => source produced no result."
+cache.posix_iconv._KEYS_ = result msgs source sources.1.libs sources.1.includedir sources.1.cflags sources.1.version sources.1.export
+cache.posix_iconv.result = true
+cache.posix_iconv.msgs = "Trying source 0 (type inline) of library posix_iconv ..." "  => source failed condition \'config.openbsd || config.haiku\'." "Trying source 1 (type inline) of library posix_iconv ..." "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/posix_iconv && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += posix_iconv\' \'QMAKE_LIBS_POSIX_ICONV = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/posix_iconv" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/posix_iconv && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o posix_iconv main.o      " " => source accepted."
+cache.posix_iconv.source = 1
+cache.posix_iconv.sources.1.libs = 
+cache.posix_iconv.sources.1.includedir = 
+cache.posix_iconv.sources.1.cflags = 
+cache.posix_iconv.sources.1.version = 
+cache.posix_iconv.sources.1.export = 
+cache.icu._KEYS_ = result msgs
+cache.icu.result = false
+cache.icu.msgs = "Trying source 0 (type inline) of library icu ..." "  => source failed condition \'config.win32 && !features.shared\'." "Trying source 1 (type inline) of library icu ..." "  => source failed condition \'config.win32 && features.shared\'." "Trying source 2 (type inline) of library icu ..." "None of [libicui18n.so libicui18n.a] found in [] and global paths." "None of [libicuuc.so libicuuc.a] found in [] and global paths." "None of [libicudata.so libicudata.a] found in [] and global paths." "  => source produced no result."
+cache.inotify._KEYS_ = result msgs
+cache.inotify.result = true
+cache.inotify.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/inotify && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/inotify" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/inotify && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o inotify main.o      "
+cache.ipc_sysv._KEYS_ = result msgs
+cache.ipc_sysv.result = true
+cache.ipc_sysv.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ipc_sysv && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ipc_sysv" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ipc_sysv && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o ipc_sysv main.o      "
+cache.linkat._KEYS_ = result msgs
+cache.linkat.result = true
+cache.linkat.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linkat && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linkat" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linkat && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o linkat main.o      "
+cache.ppoll._KEYS_ = result msgs
+cache.ppoll.result = true
+cache.ppoll.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ppoll && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ppoll" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ppoll && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o ppoll main.o      "
+cache.renameat2._KEYS_ = result msgs
+cache.renameat2.result = false
+cache.renameat2.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/renameat2 && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/renameat2" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/renameat2 && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp: In function ‘int main(int, char**)’:" "> main.cpp:9:53: error: ‘RENAME_NOREPLACE’ was not declared in this scope" ">      renameat2(AT_FDCWD, argv[1], AT_FDCWD, argv[2], RENAME_NOREPLACE | RENAME_WHITEOUT);" ">                                                      ^" "> main.cpp:9:72: error: ‘RENAME_WHITEOUT’ was not declared in this scope" ">      renameat2(AT_FDCWD, argv[1], AT_FDCWD, argv[2], RENAME_NOREPLACE | RENAME_WHITEOUT);" ">                                                                         ^" "> main.cpp:9:87: error: ‘renameat2’ was not declared in this scope" ">      renameat2(AT_FDCWD, argv[1], AT_FDCWD, argv[2], RENAME_NOREPLACE | RENAME_WHITEOUT);" ">                                                                                        ^" "> Makefile:169: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.slog2._KEYS_ = result msgs
+cache.slog2.result = false
+cache.slog2.msgs = "Trying source 0 (type inline) of library slog2 ..." "None of [libslog2.so libslog2.a] found in [] and global paths." "  => source produced no result."
+cache.statx._KEYS_ = result msgs
+cache.statx.result = false
+cache.statx.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/statx && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/statx" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/statx && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp: In function ‘int main(int, char**)’:" "> main.cpp:11:18: error: aggregate ‘main(int, char**)::statx statxbuf’ has incomplete type and cannot be defined" ">      struct statx statxbuf;" ">                   ^" "> main.cpp:12:25: error: ‘STATX_BASIC_STATS’ was not declared in this scope" ">      unsigned int mask = STATX_BASIC_STATS;" ">                          ^" "> main.cpp:13:32: error: ‘AT_STATX_SYNC_AS_STAT’ was not declared in this scope" ">      return statx(AT_FDCWD, \"\", AT_STATX_SYNC_AS_STAT, mask, &statxbuf);" ">                                 ^" "> main.cpp:13:70: error: invalid use of incomplete type ‘struct main(int, char**)::statx’" ">      return statx(AT_FDCWD, \"\", AT_STATX_SYNC_AS_STAT, mask, &statxbuf);" ">                                                                       ^" "> main.cpp:11:12: error: forward declaration of ‘struct main(int, char**)::statx’" ">      struct statx statxbuf;" ">             ^" "> Makefile:169: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.libatomic._KEYS_ = result msgs source sources.0.libs sources.0.includedir sources.0.cflags sources.0.version sources.0.export
+cache.libatomic.result = true
+cache.libatomic.msgs = "Trying source 0 (type inline) of library libatomic ..." "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libatomic && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += libatomic\' \'QMAKE_LIBS_LIBATOMIC = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libatomic" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/libatomic && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o libatomic main.o      " " => source accepted."
+cache.libatomic.source = 0
+cache.libatomic.sources.0.libs = 
+cache.libatomic.sources.0.includedir = 
+cache.libatomic.sources.0.cflags = 
+cache.libatomic.sources.0.version = 
+cache.libatomic.sources.0.export = 
+cache.doubleconversion._KEYS_ = result msgs
+cache.doubleconversion.result = false
+cache.doubleconversion.msgs = "Trying source 0 (type inline) of library doubleconversion ..." "None of [libdouble-conversion.so libdouble-conversion.a] found in [] and global paths." "  => source produced no result."
+cache.pcre2._KEYS_ = result msgs
+cache.pcre2.result = false
+cache.pcre2.msgs = "Trying source 0 (type pkgConfig) of library pcre2 ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type inline) of library pcre2 ..." "None of [libpcre2-16.so libpcre2-16.a] found in [] and global paths." "  => source produced no result."
+cache.cloexec._KEYS_ = result msgs
+cache.cloexec.result = true
+cache.cloexec.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cloexec && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cloexec" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cloexec && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o cloexec main.o      "
+cache.cxx11_random._KEYS_ = result msgs
+cache.cxx11_random.result = true
+cache.cxx11_random.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cxx11_random && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cxx11_random" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/cxx11_random && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o cxx11_random main.o      "
+cache.atomicfptr._KEYS_ = result msgs
+cache.atomicfptr.result = true
+cache.atomicfptr.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/atomicfptr && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/atomicfptr" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/atomicfptr && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o atomicfptr main.o      "
+cache.openssl_headers._KEYS_ = result msgs
+cache.openssl_headers.result = false
+cache.openssl_headers.msgs = "Trying source 0 (type inline) of library openssl_headers ..." "openssl/ssl.h not found in [] and global paths." "openssl/opensslv.h not found in [] and global paths." "  => source produced no result."
+cache.network._KEYS_ = result msgs source sources.0.libs sources.0.includedir sources.0.cflags sources.0.version sources.0.export
+cache.network.result = true
+cache.network.msgs = "Trying source 0 (type makeSpec) of library network ..." " => source accepted."
+cache.network.source = 0
+cache.network.sources.0.libs = 
+cache.network.sources.0.includedir = 
+cache.network.sources.0.cflags = 
+cache.network.sources.0.version = 
+cache.network.sources.0.export = 
+cache.getifaddrs._KEYS_ = result msgs
+cache.getifaddrs.result = true
+cache.getifaddrs.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getifaddrs && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += network\' \'QMAKE_LIBS_NETWORK = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getifaddrs" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/getifaddrs && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o getifaddrs main.o      "
+cache.ipv6ifname._KEYS_ = result msgs
+cache.ipv6ifname.result = true
+cache.ipv6ifname.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ipv6ifname && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += network\' \'QMAKE_LIBS_NETWORK = \' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ipv6ifname" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/ipv6ifname && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o ipv6ifname main.o      "
+cache.linux-netlink._KEYS_ = result msgs
+cache.linux-netlink.result = false
+cache.linux-netlink.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linux-netlink && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linux-netlink" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linux-netlink && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp: In function ‘int main(int, char**)’:" "> main.cpp:18:67: error: ‘IFA_F_MANAGETEMPADDR’ was not declared in this scope" ">      (void)(IFA_F_SECONDARY | IFA_F_DEPRECATED | IFA_F_PERMANENT | IFA_F_MANAGETEMPADDR);" ">                                                                    ^" "> Makefile:169: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1"
+cache.xkbcommon._KEYS_ = result msgs
+cache.xkbcommon.result = false
+cache.xkbcommon.msgs = "Trying source 0 (type pkgConfig) of library xkbcommon ..." "pkg-config use disabled globally." "  => source produced no result."
+cache.drm._KEYS_ = result msgs
+cache.drm.result = false
+cache.drm.msgs = "Trying source 0 (type pkgConfig) of library drm ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type inline) of library drm ..." "None of [libdrm.so libdrm.a] found in [] and global paths." "  => source produced no result." "Trying source 2 (type inline) of library drm ..." "  => source failed condition \'config.integrity\'."
+cache.openvg._KEYS_ = result msgs
+cache.openvg.result = false
+cache.openvg.msgs = "Trying source 0 (type pkgConfig) of library openvg ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type makeSpec) of library openvg ..." "None of [libOpenVG.so libOpenVG.a] found in [] and global paths." "  => source produced no result."
+cache.evdev._KEYS_ = result msgs
+cache.evdev.result = true
+cache.evdev.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/evdev && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/evdev" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/evdev && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o evdev main.o      "
+cache.freetype._KEYS_ = result msgs
+cache.freetype.result = false
+cache.freetype.msgs = "Trying source 0 (type pkgConfig) of library freetype ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type freetype) of library freetype ..." "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/freetype && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" \'QMAKE_USE += freetype\' \'QMAKE_LIBS_FREETYPE = -lfreetype\' /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/freetype" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/freetype && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> main.cpp:2:22: fatal error: ft2build.h: No such file or directory" ">  $${LITERAL_HASH}include <ft2build.h>" ">                       ^" "> compilation terminated." "> Makefile:169: recipe for target \'main.o\' failed" "> make: *** [main.o] Error 1" " => source failed verification." "Trying source 2 (type inline) of library freetype ..." "  => source failed condition \'config.wasm\'." "Trying source 3 (type inline) of library freetype ..." "None of [libfreetype.so libfreetype.a] found in [] and global paths." "  => source produced no result."
+cache.gbm._KEYS_ = result msgs
+cache.gbm.result = false
+cache.gbm.msgs = "Trying source 0 (type pkgConfig) of library gbm ..." "pkg-config use disabled globally." "  => source produced no result."
+cache.linuxfb._KEYS_ = result msgs
+cache.linuxfb.result = true
+cache.linuxfb.msgs = "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linuxfb && /home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/bin/qmake \"CONFIG -= qt debug_and_release app_bundle lib_bundle\" \"CONFIG += shared use_gold_linker warn_off console single_arch\" -early \"CONFIG += cross_compile\" /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linuxfb" "+ cd /home/xavier/Desktop/qt-everywhere-src-5.12.2/config.tests/linuxfb && MAKEFLAGS= /usr/bin/make" "> arm-linux-gnueabihf-g++ -c -pipe -O2 -std=gnu++11 -w -fPIC  -I. -I/home/xavier/Desktop/qt-everywhere-src-5.12.2/qtbase/mkspecs/linux-arm-gnueabi-g++ -o main.o main.cpp" "> arm-linux-gnueabihf-g++ -Wl,-O1 -fuse-ld=gold -o linuxfb main.o      "
+cache.mtdev._KEYS_ = result msgs
+cache.mtdev.result = false
+cache.mtdev.msgs = "Trying source 0 (type pkgConfig) of library mtdev ..." "pkg-config use disabled globally." "  => source produced no result."
+cache.qpa_default_platform._KEYS_ = result msgs value plugin name
+cache.qpa_default_platform.result = true
+cache.qpa_default_platform.msgs = 
+cache.qpa_default_platform.value = xcb
+cache.qpa_default_platform.plugin = qxcb
+cache.qpa_default_platform.name = \"xcb\"
+cache.harfbuzz._KEYS_ = result msgs
+cache.harfbuzz.result = false
+cache.harfbuzz.msgs = "Trying source 0 (type inline) of library harfbuzz ..." "None of [libharfbuzz.so libharfbuzz.a] found in [] and global paths." "  => source produced no result."
+cache.libjpeg._KEYS_ = result msgs
+cache.libjpeg.result = false
+cache.libjpeg.msgs = "Trying source 0 (type inline) of library libjpeg ..." "  => source failed condition \'config.msvc\'." "Trying source 1 (type inline) of library libjpeg ..." "None of [libjpeg.so libjpeg.a] found in [] and global paths." "  => source produced no result."
+cache.tslib._KEYS_ = result msgs
+cache.tslib.result = false
+cache.tslib.msgs = "Trying source 0 (type inline) of library tslib ..." "None of [libts.so libts.a] found in [] and global paths." "  => source produced no result."
+cache.vulkan._KEYS_ = result msgs
+cache.vulkan.result = false
+cache.vulkan.msgs = "Trying source 0 (type pkgConfig) of library vulkan ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type makeSpec) of library vulkan ..." "vulkan/vulkan.h not found in [] and global paths." "  => source produced no result."
+cache.xlib._KEYS_ = result msgs
+cache.xlib.result = false
+cache.xlib.msgs = "Trying source 0 (type makeSpec) of library xlib ..." "None of [libXext.so libXext.a] found in [] and global paths." "None of [libX11.so libX11.a] found in [] and global paths." "  => source produced no result."
+cache.cups._KEYS_ = result msgs
+cache.cups.result = false
+cache.cups.msgs = "Trying source 0 (type inline) of library cups ..." "None of [libcups.so libcups.a] found in [] and global paths." "  => source produced no result."
+cache.db2._KEYS_ = result msgs
+cache.db2.result = false
+cache.db2.msgs = "Trying source 0 (type inline) of library db2 ..." "  => source failed condition \'config.win32\'." "Trying source 1 (type inline) of library db2 ..." "None of [libdb2.so libdb2.a] found in [] and global paths." "  => source produced no result."
+cache.ibase._KEYS_ = result msgs
+cache.ibase.result = false
+cache.ibase.msgs = "Trying source 0 (type inline) of library ibase ..." "  => source failed condition \'config.win32\'." "Trying source 1 (type inline) of library ibase ..." "None of [libgds.so libgds.a] found in [] and global paths." "  => source produced no result."
+cache.mysql._KEYS_ = result msgs
+cache.mysql.result = false
+cache.mysql.msgs = "Trying source 0 (type mysqlConfig) of library mysql ..." "mysql_config not found." "  => source produced no result." "Trying source 1 (type mysqlConfig) of library mysql ..." "mysql_config not found." "  => source produced no result." "Trying source 2 (type mysqlConfig) of library mysql ..." "mysql_config not found." "  => source produced no result." "Trying source 3 (type mysqlConfig) of library mysql ..." "mysql_config not found." "  => source produced no result." "Trying source 4 (type inline) of library mysql ..." "None of [libmysqlclient_r.so libmysqlclient_r.a] found in [] and global paths." "  => source produced no result." "Trying source 5 (type inline) of library mysql ..." "  => source failed condition \'config.win32\'." "Trying source 6 (type inline) of library mysql ..." "None of [libmysqlclient.so libmysqlclient.a] found in [] and global paths." "  => source produced no result."
+cache.oci._KEYS_ = result msgs
+cache.oci.result = false
+cache.oci.msgs = "Trying source 0 (type inline) of library oci ..." "  => source failed condition \'config.win32\'." "Trying source 1 (type inline) of library oci ..." "None of [libclntsh.so libclntsh.a] found in [] and global paths." "  => source produced no result."
+cache.odbc._KEYS_ = result msgs
+cache.odbc.result = false
+cache.odbc.msgs = "Trying source 0 (type inline) of library odbc ..." "  => source failed condition \'config.win32\'." "Trying source 1 (type inline) of library odbc ..." "  => source failed condition \'config.darwin\'." "Trying source 2 (type inline) of library odbc ..." "None of [libodbc.so libodbc.a] found in [] and global paths." "  => source produced no result."
+cache.psql._KEYS_ = result msgs
+cache.psql.result = false
+cache.psql.msgs = "Trying source 0 (type pkgConfig) of library psql ..." "pkg-config use disabled globally." "  => source produced no result." "Trying source 1 (type psqlConfig) of library psql ..." "pg_config not found." "  => source produced no result." "Trying source 2 (type psqlEnv) of library psql ..." "  => source failed condition \'config.win32\'." "Trying source 3 (type psqlEnv) of library psql ..." "None of [libpq.so libpq.a] found in [] and global paths." "  => source produced no result."
+cache.sqlite2._KEYS_ = result msgs
+cache.sqlite2.result = false
+cache.sqlite2.msgs = "Trying source 0 (type inline) of library sqlite2 ..." "None of [libsqlite.so libsqlite.a] found in [] and global paths." "  => source produced no result."
+cache.tds._KEYS_ = result msgs
+cache.tds.result = false
+cache.tds.msgs = "Trying source 0 (type sybaseEnv) of library tds ..." "  => source failed condition \'config.win32\'." "Trying source 1 (type sybaseEnv) of library tds ..." "None of [libsybdb.so libsybdb.a] found in [] and global paths." "  => source produced no result."
+cache.libclang._KEYS_ = result msgs
+cache.libclang.result = false
+cache.libclang.msgs = 
